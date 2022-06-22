@@ -1257,34 +1257,8 @@
     .grid.xl-grid-2col li.grid-item-double { width: 100%; }
     .grid.xl-grid-1col li { width: 100%; }
 
-    /* architecture */
-    .box-layout .navbar.navbar-boxed { padding-left: 30px; padding-right: 30px; }
-
-    /* digital agency */
-    .home-digital-agency .outside-box-text-end .text-extra-big-2 { font-size: 250px; }
-
-    /* design agency */
-    .home-design-agency .outside-box-left { margin-left: -40vw; }
-
-    /* photography */
-    .home-photography .interactive-banners-style-13 .interactive-banners-content { width: 40%; }
-
     /* landing page */
     .fresh-parallax-bg { width: 800px; }
-}
-
-@media (max-width: 1500px) {
-    /*  architecture */
-    .home-architecture .tparrows.tp-leftarrow { transform: matrix(1, 0, 0, 1, -67, -328) !important; }
-    .home-architecture .tparrows.tp-rightarrow { transform: matrix(1, 0, 0, 1, -67, -261) !important; }
-
-    /* fashion shop */
-    .home-fashion-shop .tp-tabs { left: 54% !important; }
-}
-
-@media (max-width: 1300px) {
-    /* fashion shop */
-    .home-fashion-shop .tp-tabs { left: 60% !important; }
 }
 
 @media (min-width: 1199px) {
@@ -2752,26 +2726,6 @@
     .latest-post-sidebar li figure { width: 100px; }
     .latest-post-sidebar li div { padding-left: 15px; }
 
-    /* architecture */
-    .box-layout .navbar.navbar-boxed { padding-left: 0px; padding-right: 0px; }
-    .home-architecture .navbar.bg-transparent, .home-architecture.sticky .header-dark.header-always-fixed-scroll { background-color: transparent !important; }
-    .home-architecture .navbar-dark.bg-transparent .push-button > span, .home-architecture.sticky .navbar-dark.bg-transparent .push-button > span { background-color: #FFFFFF !important; }
-    .home-architecture .tparrows.tp-rightarrow { transform: matrix(1, 0, 0, 1, -67, -240) !important; }
-    .home-architecture .tparrows.tp-leftarrow { transform: matrix(1, 0, 0, 1, -67, -307) !important; }
-
-    /* application */
-    .banner-bottom-right-images > img { bottom: -65px; }
-
-    /* digital agency */
-    .home-digital-agency .outside-box-text-end .text-extra-big-2 { font-size: 200px; }
-
-    /* marketing agency */
-    footer.home-marketing-agency .footer-horizontal-link li { margin-right: 20px; }
-    footer.home-marketing-agency .footer-horizontal-link li:last-child { margin-right: 0; }
-
-    /* vertical portfolio */
-    .home-vertical-portfolio .navbar { padding: 0 4.5rem;}
-
     /* interactive list style */
     .fullscreen-hover-list .hover-list-item .interactive-title { font-size: 70px; line-height: 70px; padding: 20px 35px; }
     .fullscreen-hover-list .hover-list-item .interactive-title:after { bottom: 30px; }
@@ -2802,19 +2756,6 @@
     /* swiper vertical */
     .slider-vertical .swiper-number-pagination { left: 73px; bottom: 115px; }
 
-    /* home decor */
-    .home-decor .zeus { transform: matrix(1, 0, 0, 1, -470, -59) !important; }
-    .home-decor .collection-btn span{ width: 48px !important; height: 48px !important; top: 50% !important; transform: translateY(-50%) !important; }
-    .home-decor .collection-btn:hover span{ width: 100% !important; height: 48px; }
-    .home-decor .tp-bullet { height: 8px !important; width: 8px !important; }
-
-    /* fashion shop */
-    .home-fashion-shop .tp-tabs { left: 605px !important; }
-
-    /* home-architecture */
-    .home-architecture .tparrows.tp-rightarrow { transform: matrix(1, 0, 0, 1, -67, -240) !important; }
-    .home-architecture .tparrows.tp-leftarrow { transform: matrix(1, 0, 0, 1, -67, -307) !important; }
-
     /* interactive list style */
     .fullscreen-hover-list .hover-list-item.active .interactive-icon { opacity: 1; visibility: visible; transition-delay: .8s; transition-duration: 1s;}
 
@@ -2825,11 +2766,6 @@
     /*footer sticky*/
     .footer-sticky { position: relative !important; z-index: 0 !important; }
 
-}
-
-@media only screen and (max-width:1024px) and (min-width: 778px) {
-    /* spa salon */
-    .home-spa-salon .ares { top: 55.5% !important; }
 }
 
 /* Navigation breakpoint start */
@@ -4556,12 +4492,6 @@
     .slider-vertical >.swiper-pagination-bullets { top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); }
     .slider-vertical >.swiper-pagination-bullets>.swiper-pagination-bullet { margin: 8px 0; }
 
-    /* split slider */
-    .home-split-portfolio { height: auto !important; }
-    .home-split-portfolio .swiper-slide { -ms-flex-wrap: wrap;flex-wrap: wrap; height: auto; }
-    .home-split-portfolio .swiper-slide .swiper-slide-l,.home-split-portfolio .swiper-slide .swiper-slide-r { opacity: 1; visibility: visible; -webkit-transform: translateY(0);-ms-transform: translateY(0);transform: translateY(0); width: 100% !important; -webkit-box-flex: 0;-ms-flex: 0 0 100%;flex: 0 0 100%; height: calc(100vh - 70px) !important;}
-    .home-split-portfolio .swiper-wrapper { -ms-flex-wrap: wrap;flex-wrap: wrap; overflow: auto; }
-
     /* horizontal portfolio slider */
     .horizontal-portfolio-slider-main { -webkit-overflow-scrolling: touch; }
     .horizontal-portfolio-slider-main .horizontal-portfolio-slider .swiper-wrapper{ -ms-flex-wrap: wrap; flex-wrap: wrap; overflow: auto; transform: translate3d(0, 0px, 0px) !important; }
@@ -4617,30 +4547,6 @@
     /* application */
     .banner-bottom-right-images > img { bottom: 0; }
 
-    /* yoga meditation */
-    .home-yoga-meditation .outside-box-right .absolute-middle-center { left: 50%; }
-
-    /* consulting */
-    .home-consulting .popup-youtube.absolute-middle-center { left: 50%; }
-
-    /* digital agency */
-    .home-digital-agency .outside-box-text-end .text-extra-big-2 { font-size: 150px; }
-
-    /* design agency */
-    .home-design-agency .outside-box-left { margin-left: 0; }
-
-    /* interactive portfolio */
-    .home-interactive-portfolio .fullscreen-hover-box .interactive-title { font-size: 55px; line-height: 60px; }
-
-    /* vertical portfolio */
-    .home-vertical-portfolio .navbar { padding: 0 3.5rem;}
-
-    /* freelancer */
-    .home-freelancer .title-extra-large-heavy { line-height: 90px; }
-
-    /* fashion shop */
-    .home-fashion-shop .tp-tabs { left: 50% !important; -webkit-transform: translateX(-50%) !important;-ms-transform: translateX(-50%) !important;transform: translateX(-50%) !important; top: auto !important; bottom: 5% !important; }
-
     /* slider navigation style 04 */
     .slider-navigation-style-04.swiper-button-prev { left: -60px; }
     .slider-navigation-style-04.swiper-button-next { right: -60px; }
@@ -4650,10 +4556,6 @@
 
     /* interactive list style */
     .fullscreen-hover-list .hover-list-item .interactive-icon { top: 4px; }
-
-    /* split portfolio */
-    .home-split-portfolio.vh-100 { height: calc(100vh - 70px) !important; }
-    .home-split-portfolio .title-large { font-size: 90px; line-height: 90px; }
 
     /* coming soon v2 */
     .show-notify-popup .mfp-container { padding-top: 30px; }
@@ -4670,18 +4572,10 @@
     
     /* cookie message */
     .gdpr-container .gdpr-content { display: block; margin-right: 0; margin-bottom: 15px;}
-    
-    /* consulting */
-    .home-dentist .popup-youtube.absolute-middle-center { left: 50%; }
+
 }
 
 @media only screen and (max-width: 991px) and (orientation: landscape) {
-    /* home decor */
-    .home-decor .zeus { transform: translateX(-50%) !important; top: 90% !important; }
-
-    /*home spa salon*/
-    .home-spa-salon .img img { width: 220px !important; }
-    .home-spa-salon .rev_slider_wrapper { height: 450px !important; }
 
     /*coming soon*/
     .coming-soon .tp-fullwidth-forcer ,.coming-soon .rev_slider_wrapper { height: 450px !important; }
@@ -4689,31 +4583,6 @@
     .coming-soon .coming-soon-text { font-size: 12px !important; line-height: 14px !important; min-width: 300px !important; }
     .coming-soon .coming-soon-icon i { font-size: 11px !important; }
 
-    /*home architecture*/
-    .home-architecture .rev_slider_wrapper { min-height: 400px !important; }
-    .architecture-overlap { position: relative !important; }
-    .home-architecture .tparrows.tp-rightarrow { transform: matrix(1, 0, 0, 1, -67, -67) !important; }
-    .home-architecture .tparrows.tp-leftarrow { transform: matrix(1, 0, 0, 1, -67, -134) !important; }
-    .home-architecture .architecture-title { font-size: 34px !important; line-height: 34px !important; }
-
-    /*home startup*/
-    .home-startup .rev_slider_wrapper { min-height: 450px; }
-
-    /*home yoga meditation*/
-    .home-yoga-meditation .rev_slider_wrapper { height: 350px !important; }
-    .home-yoga-meditation .yoga-woman, .home-yoga-meditation .yoga-leaves { bottom: -140px; }
-    .home-yoga-meditation .yoga-woman img { height: 275px !important; width: auto !important; }
-    .home-yoga-meditation .yoga-main-text { font-size: 60px !important; top: 25px !important; }
-    .home-yoga-meditation .yoga-small-text { font-size: 15px !important; line-height: 20px !important; }
-    .home-yoga-meditation .yoga-top-line { transform: matrix(1, 0, 0, 1, 0, 19) !important; min-width: 420px !important; }
-    .home-yoga-meditation .yoga-bottom-line { transform: matrix(1, 0, 0, 1, 0, 36) !important; min-width: 400px !important; }
-
-    /*home furniture shop*/
-    .home-furniture-shop, .home-furniture-shop .rev_slider_wrapper { height: 350px !important; }
-    
-    /*home vertical portfolio*/
-    .home-vertical-portfolio .slider-vertical { height: 100% !important; }
-    
     /* maintenance */
     .maintenance .maintenance-title { font-size: 28px !important; line-height: 30px !important; padding-top: 20px !important; }
 
@@ -4729,21 +4598,6 @@
     .md-landscape-h-600px { height: 600px !important; }
     .md-landscape-h-650px { height: 650px !important; }
     .md-landscape-h-700px { height: 700px !important; }
-}
-
-@media only screen and (max-width: 991px) and (min-width: 767px) and (orientation: landscape) {
-    .home-hotel-resort .rev_slider_wrapper { min-height: 450px !important; }
-    .home-startup .rev_slider_wrapper { min-height: 450px; }
-}
-
-@media (max-width: 778px) {
-    /* home decor */
-    .home-decor .rev_slider_wrapper { height: 540px; }
-    .home-decor .zeus { transform:matrix(1, 0, 0, 1, -350, -59) !important }
-
-    /* architecture */
-    .home-architecture .tparrows.tp-leftarrow { transform: matrix(1, 0, 0, 1, -67, -234) !important; }
-    .home-architecture .tparrows.tp-rightarrow { transform: matrix(1, 0, 0, 1, -67, -301) !important; }
 }
 
 @media (max-width: 767px) {
@@ -6316,53 +6170,17 @@
     /* cart and checkout page */
     .total-price-table td, .total-price-table th { padding-top: 15px; padding-bottom: 15px; }
 
-    /* marketing agency */
-    footer.home-marketing-agency .footer-horizontal-link li { margin-right: 0; }
-
     /* interactive list style */
     .fullscreen-hover-list .hover-list-item.active .interactive-number { transform: translateX(50px); -webkit-transform: translateX(50px); -moz-transform: translateX(50px); -ms-transform: translateX(50px); }
     .fullscreen-hover-list .hover-list-item .interactive-line { width: 20px; margin-left: 25px; }
     .fullscreen-hover-list .hover-list-item .interactive-title:after { left: 25px; bottom: 25px; }
     .fullscreen-hover-list .hover-list-item .interactive-title:hover:after { width: calc(100% - 50px); }
 
-    /* interactive portfolio */
-    .home-interactive-portfolio .fullscreen-hover-box .interactive-title { font-size: 35px; line-height: 35px; padding: 25px; }
-    .fullscreen-hover-list .hover-list-item .interactive-icon { top: 1px; }
-
-    /* photography */
-    .home-photography .interactive-banners-style-13 .interactive-banners-image { width: 80%; }
-    .home-photography .interactive-banners-style-13 .interactive-banners-content { width: 30%; }
-    .home-photography .hover-option-2 .hover-option-content { width: 35%; }
-
-    /* freelancer */
-    .home-freelancer .title-extra-large-heavy { line-height: 70px; }
-    .home-freelancer .title-extra-large { font-size: 65px; }
-    .home-freelancer-bg-img { background: none !important; }
-
-    /* hotel resort */
-    .home-hotel-resort .book-now-btn { font-size: 11px !important; padding: 12px 24px !important; }
-    .home-hotel-resort .rev_slider_wrapper { height: 450px !important; }
-
     /* swiper horizontal 3d */
     .swiper-horizontal-3d.swiper-container { padding-bottom: 0; }
     .swiper-horizontal-3d .swiper-slide.swiper-slide-prev, .swiper-horizontal-3d .swiper-slide.swiper-slide-next { opacity: .0; }
     .swiper-horizontal-3d .swiper-slide.swiper-slide-active { box-shadow: none; }
 
-    /*home architecture*/
-    .home-architecture .tparrows.tp-leftarrow { transform: translate(0) !important; bottom: 0; right: 0; top: auto !important; left: auto !important; }
-    .home-architecture .tparrows.tp-rightarrow { transform: translate(0) !important; bottom: 67px; right: 0; top: auto !important; left: auto !important; }
-
-    /* split slider */
-    .home-split-portfolio .title-large { font-size: 70px; line-height: 65px; }
-
-    /* elements social icon page */
-    .elements-social .extra-small-icon li, .elements-social .small-icon li, .elements-social .medium-icon li, .elements-social .large-icon li, .elements-social .extra-large-icon li { margin-bottom: 20px; }
-
-    .home-startup .tp-bullet { opacity: 0.5; height: 10px !important; width: 10px !important; }
-
-    /*home decor*/
-    .home-decor .tp-bullets { transform: translateX(-50%) !important; bottom: 30px !important; top: auto !important; }
-    
     /* text shadow */
     .sm-no-text-shadow { text-shadow: none;}
     
@@ -7900,12 +7718,6 @@
     /* footer */
     footer .footer-horizontal-link li { margin: 0 0 7px; }
 
-    /* events conference */
-    .home-events-conference h1 { font-size: 28px; line-height: 38px; }
-
-    /* marketing agency */
-    .team-tulip-bubble { bottom: 70px; padding: 15px; }
-
     /* interactive list style */
     .fullscreen-hover-list .hover-list-item.active .interactive-number { transform: translateX(30px); -webkit-transform: translateX(30px); -moz-transform: translateX(30px); -ms-transform: translateX(30px); }
     .fullscreen-hover-list .hover-list-item .interactive-line { width: 15px; margin-left: 10px; }
@@ -7914,71 +7726,7 @@
     .fullscreen-hover-list.light .hover-list-item .interactive-title { -webkit-text-stroke: 1px #4e4e4f; text-stroke: 1px #4e4e4f; }
     .fullscreen-hover-list .hover-list-item .interactive-icon { font-size: 40px; }
 
-    /* interactive portfolio */
-    .home-interactive-portfolio .fullscreen-hover-box .interactive-title { font-size: 30px; line-height: 30px; padding: 15px; }
-
-    /* vertical portfolio */
-    .home-vertical-portfolio .navbar { padding: 0;}
-
-    /* swiper vertical */
-    .slider-vertical .swiper-number-pagination { left: 17px; }
-
-    /* personal portfolio */
-    .home-personal-portfolio .title-large-2 { font-size: 50px; line-height: 55px; }
-
-    /* photography */
-    .home-photography .title-extra-large-heavy { font-size: 5rem; }
-    .home-photography .interactive-banners-style-13 .interactive-banners-content { width: 35%; }
-
-    /* freelancer */
-    .home-freelancer .icon-extra-medium { font-size: 25px; }
-
-    /* creative agency */
-    .home-creative-agency h1.title-extra-large { font-size: 60px; line-height: 65px; }
-
-    /* digital agency */
-    .home-digital-agency h1.title-extra-large { font-size: 60px; line-height: 65px; }
-
-    /* landing page */
-    .fresh-parallax-bg { right: 0px; top: -50px; }
-    .landing-page-auto-slider .swiper-container.swiper-auto-slide .swiper-slide { width: 100% !important; }
-    .landing-page-footer .title-large-2 { font-size: 35px; line-height: 42px; }
-
-    /* split portfolio */
-    .home-split-portfolio .title-large { font-size: 45px; line-height: 40px; }
-}
-
 @media screen and (max-width: 480px) {
-    /* yoga meditation*/
-    .home-yoga-meditation .rev_slider_wrapper { height: calc(100vh - 72px) !important; }
-
-    /* home decor */
-    .home-decor .rev_slider_wrapper { height: calc(100vh - 100px) !important; }
-    /*.home-decor .zeus { transform: matrix(1, 0, 0, 1, -26, -55) !important; }*/
-    .home-decor .collection-btn { top: auto !important; }
-    .home-decor .collection-btn span{ width: 45px !important; height: 45px !important; }
-
-    /* photography*/
-    .home-photography .ares { display: none !important; }
-    .home-photography .zeus { display: block !important; }
-    .home-photography .zeus .tp-bullet { height: 8px; width: 8px; border: 1px solid #fff; opacity: 0.5; }
-    .home-photography .zeus .tp-bullet.selected { opacity: 1; }
-    .home-photography .tp-bullet-image,.home-photography .tp-bullet-title,.home-photography .tp-bullet-imageoverlay { display: none !important; }
-
-    /* startup*/
-    .home-startup .rs-btn div { height: 30px !important; width: 30px !important; }
-    .home-startup .tp-bullet.selected { opacity: 1; }
-
-    /* architecture*/
-    .home-architecture .metis.tparrows { width: 50px; height: 50px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; top: auto !important; bottom: -25px; -webkit-transform: translate(-50%,-50%) !important; -ms-transform: translate(-50%,-50%) !important; transform: translate(-50%,-50%) !important; }
-    .home-architecture .metis.tparrows:before { padding-top: 0; }
-    .home-architecture .metis.tparrows:hover:before { -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1);}
-    .home-architecture .metis.tparrows.tp-leftarrow { left: 94% !important; }
-    .home-architecture .metis.tparrows.tp-rightarrow { left: 94% !important; bottom: 25px; }
-
-    /* split slider */
-    .home-split-portfolio .swiper-slide-l { background-size: 53%; }
-
     /* countdown style 02 */
     .countdown.countdown-style-02 .countdown-box { margin-bottom: 15px; padding: 0 25px; }
 }
