@@ -1,13 +1,6 @@
 @charset "UTF-8";
-
-/*!
- * Litho - v2.0
- * https://www.themezaa.com/
- * Copyright (c) 2021 themezaa.com
- */
-
 @media (min-width: 1901px) {
-    .litho-parallax-bg { width: 45%; }
+    .fresh-parallax-bg { width: 45%; }
 }
 
 @media (max-width: 1600px) {
@@ -1277,7 +1270,7 @@
     .home-photography .interactive-banners-style-13 .interactive-banners-content { width: 40%; }
 
     /* landing page */
-    .litho-parallax-bg { width: 800px; }
+    .fresh-parallax-bg { width: 800px; }
 }
 
 @media (max-width: 1500px) {
@@ -2788,7 +2781,7 @@
     .content-box-image { height: 225px; }
 
     /* landing page */
-    .litho-parallax-bg { width: 620px; }
+    .fresh-parallax-bg { width: 620px; }
     .customer-bg-section { top: 80px; bottom: inherit; }
     .landing-page-auto-slider .swiper-container.swiper-auto-slide .swiper-slide { width: 40% !important; }
 
@@ -4666,8 +4659,8 @@
     .show-notify-popup .mfp-container { padding-top: 30px; }
     
     /* landing page */
-    .litho-landing-header .navbar-brand:after { display: none; }
-    .litho-parallax-bg { width: 60%; right: -90px;}
+    .fresh-landing-header .navbar-brand:after { display: none; }
+    .fresh-parallax-bg { width: 60%; right: -90px;}
     .customer-bg-section { display: none; }
     .landing-page-footer .title-large-2 { font-size: 54px; line-height: 64px; }
     .landing-page-auto-slider .swiper-container.swiper-auto-slide .swiper-slide { width: 60% !important; }
@@ -7947,7 +7940,7 @@
     .home-digital-agency h1.title-extra-large { font-size: 60px; line-height: 65px; }
 
     /* landing page */
-    .litho-parallax-bg { right: 0px; top: -50px; }
+    .fresh-parallax-bg { right: 0px; top: -50px; }
     .landing-page-auto-slider .swiper-container.swiper-auto-slide .swiper-slide { width: 100% !important; }
     .landing-page-footer .title-large-2 { font-size: 35px; line-height: 42px; }
 
